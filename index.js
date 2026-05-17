@@ -7,7 +7,7 @@ app.use(express.json());
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const VERIFY_TOKEN = "giannas123";
-const WHATSAPP_TOKEN = "EAAS6bQB48egBRf43zbDXMOlmMq3vNzyVspEtN6LcEAWpXcyQawZBZCqnyG4aCOWYobbEzvDsWBluM3F";
+const WHATSAPP_TOKEN = "EAAS6bQB48egBRfPrI5c4jxAJok9szpIABnVSO1od995wnPJVtgJGsam1kbHnUC7bbmxlmZASQeFoSGspZBqucHGr1ZAJFQVztE5JkpsBvMJ5eFsNvdmUi5ZBHWTqZCZCZC528pLTSyXPyUCHTae6rjj3Bc3YpqtCHRGjiQZC4dpEYtuZCqzzVvYvRQefYtDBO64vUyKwQWbCqq9p6oHeNr5Y7YnDikKPTvSf4HsFCPu9l7Q2ayvUZCEmOyV0TiwhLwemGZC9ft68JqQeCVPDXlBWzcwDIoZD";
 const PHONE_NUMBER_ID = "1117983298070127";
 
 app.get("/webhook", (req, res) => {
