@@ -7,7 +7,7 @@ app.use(express.json());
 
 const anthropic = new Anthropic({ apiKey: "sk-ant-api03-nfmynn6INGt8L_P6-XYdKMtffqUCeP-2g3CtZbd0m64_Gx96pcE43N4IjcJoa78gB-ymRzwtqDE8ISkT2YW_4Q-jL_wAwAA" });
 const VERIFY_TOKEN = "giannas123";
-const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
+const WHATSAPP_TOKEN = "EAAS6bQB48egBRf43zbDXMOlmMq3vNzyVspEtN6LcEAWpXcyQawZBZCqnyG4aCOWYobbEzvDsWBluM3F";
 const PHONE_NUMBER_ID = "1117983298070127";
 
 app.get("/webhook", (req, res) => {
